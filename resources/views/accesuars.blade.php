@@ -4,7 +4,7 @@
 <meta charset = "UTF-8"> 
 <link rel = "stylesheet" href = "CSS.css"> 
 <title> 
-Интернет-магазин EAS
+Аксессуары
 </title> 
 </head> 
 <body> 
@@ -12,9 +12,11 @@
 <div class = "menu"> 
 <ul class="menuone"> 
 <li class="menu-item"> 
-<a href="#" class = "Catalog"><img src = "img\menu.png" class = "menimg"></a> 
+<a href="#" class = "Catalog">
+<img src = "img\menu.png" class = "menimg">
+</a> 
 <ul class="sub-menu"> 
-<li class= "sm">
+<li class="sm">
 <a href="/" class = "Catalog"><b>Главная</b></a>
 </li>
 <hr>
@@ -78,82 +80,43 @@ return false;
 <a href="corz.html">
 <img src ="img\corz.png">
 </div>
-<div class = "info">
-<a href = "https://vk.com/justonlywaifu"  class = "inf">Связаться можно здесь</a> 
+<div class = "info"> 
+<a href = "https://vk.com/justonlywaifu" class = "inf">Связаться можно здесь</a> 
 </div> 
 </header> 
 <br> 
-<div class = "banner"> 
-<img src = "img\banner.png" class = "ban"> 
-</div> 
-<br> 
-<div class = "usl"> 
-Акции 
-</div> 
-<div class = "lenta"> 
-<div class = "t1"> 
-<a href = "#"> 
-<div class="smesh">
-<img src = "Товары\tovar1.jpg" class = "srcimg">
+<div class="bnr">
+<div class="bannertext">
+Аксессуары
 </div>
-4K (Ultra HD) Smart телевизор PHILIPS 50PUS 6262/60 
-</a> 
-</div> 
-<div class = "t2"> 
-<a href = "#"> 
-<div class="smesh">
-<img src = "Товары\tovar2.jpg" class = "srcimg"> 
+<div class="bnr1">
+<a href ="#">
+<div class="l">
+<img src="Товары\tovar14.jpg" class="sdvig">
 </div>
-Медиа стримеры и плееры Xiaomi Mi Box S
-</a> 
-</div> 
-<div class = "t3"> 
-<a href = "#"> 
-<div class="smesh">
-<img src = "Товары\tovar3.jpg" class = "srcimg"> 
+<div class="texting">
+Электронные часы
+</a>
 </div>
-Ноутбук Asus X540BA-GQ386
-</a> 
-</div> 
-<div class = "t4"> 
-<a href = "#"> 
-<div class="smesh">
-<img src = "Товары\tovar4.jpg" class = "srcimg"> 
 </div>
-Плита комбинированная DARINA 1D1 KM 241 311 Х
-</a> 
-</div> 
-<div class = "t5"> 
-<a href = "#"> 
-<div class="smesh">
-<img src = "Товары\tovar5.jpg" class = "srcimg"> 
+<div class="bnr2">
+<a href="#">
+<div class="l">
+<img src="Товары\tovar15.jpg" class="sdvig">
 </div>
-Smart телевизор AMCV LE-39ZTHS21
-</a> 
-</div> 
-</div> 
-<div class = "bttext"> 
-О нас
-</div> 
-<div class = "tovary"> 
-<div class = "raa"> 
-<div class = "bt1"> 
-1. Мы новоиспечённая сеть магазинов 
-</div> 
-</a> 
-</div> 
-<div class = "gwow"> 
-<div class = "bt1"> 
-2. Мы не собираемся обманывать покупателей
-</div> 
-</a> 
-</div> 
-<div class = "gaa"> 
-<div class = "bt1"> 
-3. Только качественный товар 
-</div> 
-</a> 
-</div> 
-</div> 
-</body> 
+<div class="texting">
+Гаджеты для спорта
+</a>
+</div>
+</div>
+<div class="bnr3">
+<a href="#">
+<div class="l">
+<img src="Товары\tovar13.jpg" class="sdvig">
+</div>
+<div class="texting">
+Электронные приспособления для рыбалки
+</div>
+</div>
+	</body>
 </html>

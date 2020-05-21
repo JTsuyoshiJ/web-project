@@ -1,0 +1,379 @@
+body{ 
+background-color: #F2F2F2; 
+} 
+.menuone{ 
+font-size: 16px; 
+font-family: Arial Black; 
+float: left; 
+float: top; 
+padding: 10px; 
+text-align: center; 
+margin-top: -10px; 
+border: 5px solid #8ccb5e; 
+border-radius: 20px; 
+} 
+header{ 
+height: 80px; 
+width:100%; 
+padding-top:16px; 
+padding-left:2%; 
+margin-left:-1%; 
+background-color:#F3F3F3;
+margin-top: -6px;
+} 
+.smesh{
+margin-left: 5px;
+}
+.corz{
+margin-top:-11px;
+margin-left:350px;
+}
+.info{ 
+font-size: 16px; 
+font-family: Arial Black; 
+float: right; 
+margin-top: -55px; 
+margin-right:3%; 
+} 
+.inf{ 
+text-decoration: none; 
+color: #202225; 
+} 
+.banner{ 
+float: right; 
+background-color: #ff4f00; 
+border-radius: 100px; 
+height: 350px; 
+margin-right:225px;
+} 
+.ban{ 
+margin-top: -42px; 
+} 
+.sub-menu{ 
+height: 0; 
+overflow: hidden; 
+opacity: 0; 
+transition: all 1.5s ease-in; 
+} 
+li{ 
+list-style-type: none; 
+} 
+.sm{ 
+margin:11px; 
+} 
+hr{ 
+margin: 0px; 
+} 
+.Catalog{ 
+text-decoration: none; 
+color: #202225; 
+} 
+.usl{ 
+font-size: 20px; 
+font-family: Arial Black; 
+color: #202225; 
+margin-top: 390px; 
+margin-bottom: -390px; 
+margin-left: 117px; 
+} 
+.lenta{ 
+height: 160px; 
+width: 1820px; 
+margin-top: 390px; 
+padding-top: 20px; 
+} 
+.t1{ 
+height:200px; 
+width:180px; 
+border-radius: 20px; 
+background-color: #F6F6F6; 
+} 
+.srcimg{ 
+margin-top: 5px; 
+} 
+.t2{ 
+height:200px; 
+width:180px; 
+border-radius: 20px; 
+background-color: #F6F6F6; 
+margin-left: 420px; 
+margin-top: -200px; 
+} 
+.t3{ 
+height:200px; 
+width:180px; 
+border-radius: 20px; 
+background-color: #F6F6F6; 
+margin-left: 840px; 
+margin-top: -200px; 
+} 
+.t4{ 
+height:200px; 
+width:180px; 
+border-radius: 20px; 
+background-color: #F6F6F6; 
+margin-left: 1240px; 
+margin-top: -200px; 
+} 
+.t5{ 
+height:200px; 
+width:180px; 
+border-radius: 20px; 
+background-color: #F6F6F6; 
+margin-left: 1628px; 
+margin-top: -200px; 
+} 
+.raa{ 
+height: 150px; 
+width: 480px; 
+border-radius: 60px; 
+background-color: #8ccb5e; 
+margin-top: 80px; 
+margin-left:50px;
+} 
+.gwow{ 
+height: 150px; 
+width: 480px; 
+border-radius: 60px; 
+background-color: #8ccb5e; 
+margin-top: -150px; 
+margin-left: 680px; 
+} 
+.gaa{ 
+height: 150px; 
+width: 480px; 
+border-radius: 60px; 
+background-color: #8ccb5e; 
+margin-top: -150px; 
+margin-left: 1320px; 
+} 
+a{ 
+text-decoration: none; 
+} 
+.bt1{ 
+font-size: 32px; 
+font-family: Arial; 
+text-align: center; 
+padding-top: 20px; 
+color: #3F3F40; 
+} 
+.bttext{ 
+font-size: 20px; 
+font-family: Arial Black; 
+color: #202225; 
+margin-top: 70px; 
+margin-bottom: -60px; 
+margin-left: 117px; 
+} 
+* {
+  box-sizing: border-box;
+}
+.shopping-cart {
+  width: 950px;
+  height: 600px;
+  margin: 120px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+  margin-left:550px;
+ 
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  padding: 20px 30px;
+  height: 180px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+.delete-btn,
+.like-btn {
+  display: inline-block;
+  Cursor: pointer;
+}
+.delete-btn {
+  width: 18px;
+  height: 17px;
+  background: url("delete-icn.svg") no-repeat center;
+}
+ 
+.like-btn {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  background: url('twitter-heart.png');
+  width: 60px;
+  height: 60px;
+  background-size: 2900%;
+  background-repeat: no-repeat;
+}
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+ 
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+.image {
+  margin-right: 50px;
+}
+ 
+Let’s add some basic style to  product name and description.
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+  .buttons {
+    margin-right: 20px;
+  }
+}
+.Zakaz{
+	width:250px;
+	margin-left:850px;
+}
+.bannertext{
+	margin-top:75px;
+	font-family: Arial Black;
+	font-size: 32px;
+	margin-left:500px;
+}
+.bnr{
+	width:1300px;
+	height:700px;
+	margin-top:50px;
+	background-color:#8ccb5e;
+	border-radius:20px;
+	margin-left:350px;
+}
+.bnr1{
+	width:1250px;
+	height:175px;
+	margin-left:25px;
+	margin-top:15px;
+	background-color:#ff4f00;
+	border-radius:20px;
+}
+.l{
+	margin-left:15px;
+}
+.bnr2{
+	width:1250px;
+	height:175px;
+	margin-left:25px;
+	margin-top:0px;
+	background-color:#ff4f00;
+	border-radius:20px;
+	margin-top:15px;
+}	
+.bnr3{
+	width:1250px;
+	height:175px;
+	margin-left:25px;
+	margin-top:0px;
+	background-color:#ff4f00;
+	border-radius:20px;
+	margin-top:15px;
+}
+.texting{
+	margin-left:250px;
+	margin-top:-125px;
+	font-family:Arial;
+	font-size:24px;
+}
+.sdvig{
+	margin-top:15px;
+}
