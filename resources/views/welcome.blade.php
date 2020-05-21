@@ -75,7 +75,7 @@ return false;
 </script> 
 </div> 
 <div class = "corz">
-<a href="corz.html">
+<a href="/corz">
 <img src ="img\corz.png">
 </div>
 <div class = "info">
