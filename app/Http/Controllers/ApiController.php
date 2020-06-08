@@ -42,4 +42,8 @@ class ApiController extends Controller
 	{
 		return view('technical');
 	}
+	public function getproducts(Request $request)
+	{
+		return (new ProductController())->show();
+	}
 }

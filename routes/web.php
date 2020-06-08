@@ -30,3 +30,5 @@ Route::get('/phones_and_gadjets', 'ApiController@phones_and_gadjetsAction');
 Route::get('/photo_and_vidios', 'ApiController@photo_and_vidiosAction');
 
 Route::get('/technical', 'ApiController@technicalAction');
+
+Route::get('/getproducts', 'ApiController@getProducts');
